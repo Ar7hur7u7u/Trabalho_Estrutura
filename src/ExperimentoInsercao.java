@@ -1,8 +1,5 @@
 import java.util.Random;
 
-/**
- * Executa experimentos de desempenho para inserção em ArranjoOrdenado.
- */
 public class ExperimentoInsercao {
     private static final int CAPACIDADE = 100_000;
     private static final int EXECUCOES = 100;

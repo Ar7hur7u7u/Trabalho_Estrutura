@@ -1,6 +1,3 @@
-/**
- * Classe principal para execução dos experimentos de inserção e exclusão.
- */
 public class Main {
     public static void main(String[] args) {
         ExperimentoInsercao experimentoInsercao = new ExperimentoInsercao();

@@ -1,8 +1,5 @@
 import java.util.Random;
 
-/**
- * Executa experimentos de desempenho para exclusão em ArranjoOrdenado.
- */
 public class ExperimentoExclusao {
     private static final int CAPACIDADE = 100_000;
     private static final int EXECUCOES = 100;
@@ -43,7 +40,6 @@ public class ExperimentoExclusao {
             int[] inseridos = new int[CAPACIDADE];
             Random random = new Random(98765L + execucao);
 
-            // Pré-carrega o arranjo e armazena os valores para remoção segura.
             for (int i = 0; i < CAPACIDADE; i++) {
                 int valor;
                 if (cenario == 0) {

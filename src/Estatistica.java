@@ -1,10 +1,6 @@
-/**
- * Funções utilitárias para cálculo de estatísticas básicas.
- */
 public final class Estatistica {
 
     private Estatistica() {
-        // Classe utilitária.
     }
 
     public static double calcularMedia(long[] valores) {
