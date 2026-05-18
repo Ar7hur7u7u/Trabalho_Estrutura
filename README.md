@@ -43,5 +43,4 @@ java -cp out br.com.trabalho.Main
 
 - `src/main/java/br/com/trabalho/PilhaMinMax.java`: implementacao da pilha.
 - `src/main/java/br/com/trabalho/Main.java`: demonstracao das operacoes.
-- `relatorio/relatorio.pdf`: relatorio solicitado na entrega.
-- `relatorio/relatorio.md`: versao editavel do relatorio.
+- `relatorio/relatorio.md`: relatorio do trabalho em formato editavel.
